@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filamentdb"
+version = "0.1.0"
+description = "Open-source 3D printing filament parameter database — search, compare, and get AI-recommended settings"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "tabulate>=0.9",
+]
+
+[project.scripts]
+filamentdb = "filamentdb.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["filamentdb*"]
