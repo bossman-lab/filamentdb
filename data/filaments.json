@@ -1,0 +1,354 @@
+{
+  "brands": {
+    "Bambu Lab": {
+      "models": {
+        "PLA Basic": {
+          "type": "PLA",
+          "nozzle_temp": {"min": 220, "max": 230, "recommended": 225},
+          "bed_temp": {"min": 55, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 21,
+          "retraction_distance": 0.8,
+          "retraction_speed": 30,
+          "fan_speed": 100,
+          "bed_adhesion": "textured PEI plate",
+          "drying": {"temp": 55, "time_hours": 8},
+          "notes": "Bambu's own filament, perfectly tuned for X1/P1/A1 series",
+          "rating": 4.6
+        },
+        "PLA Matte": {
+          "type": "PLA", "nozzle_temp": {"min": 220, "max": 230, "recommended": 225},
+          "bed_temp": {"min": 55, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 18, "retraction_distance": 0.8,
+          "retraction_speed": 30, "fan_speed": 100,
+          "bed_adhesion": "textured PEI plate",
+          "drying": {"temp": 55, "time_hours": 8},
+          "notes": "Matte finish, hides layer lines well", "rating": 4.5
+        },
+        "PETG Translucent": {
+          "type": "PETG", "nozzle_temp": {"min": 255, "max": 270, "recommended": 265},
+          "bed_temp": {"min": 70, "max": 80, "recommended": 75},
+          "max_volumetric_speed": 15, "retraction_distance": 1.0,
+          "retraction_speed": 30, "fan_speed": 50,
+          "bed_adhesion": "glue stick on textured PEI",
+          "drying": {"temp": 65, "time_hours": 8},
+          "notes": "Crystal clear finish, needs slow printing", "rating": 4.3
+        },
+        "PETG Basic": {
+          "type": "PETG", "nozzle_temp": {"min": 250, "max": 265, "recommended": 260},
+          "bed_temp": {"min": 70, "max": 80, "recommended": 75},
+          "max_volumetric_speed": 17, "retraction_distance": 1.0,
+          "retraction_speed": 30, "fan_speed": 50,
+          "bed_adhesion": "glue stick on textured PEI",
+          "drying": {"temp": 65, "time_hours": 8},
+          "notes": "Reliable PETG, good layer adhesion", "rating": 4.4
+        },
+        "ABS": {
+          "type": "ABS", "nozzle_temp": {"min": 270, "max": 290, "recommended": 280},
+          "bed_temp": {"min": 90, "max": 100, "recommended": 95},
+          "max_volumetric_speed": 12, "retraction_distance": 1.2,
+          "retraction_speed": 40, "fan_speed": 0,
+          "enclosure_required": true,
+          "bed_adhesion": "PEI + ABS slurry",
+          "drying": {"temp": 80, "time_hours": 12},
+          "notes": "Requires enclosure, good strength", "rating": 4.2
+        },
+        "TPU 95A HF": {
+          "type": "TPU", "nozzle_temp": {"min": 220, "max": 235, "recommended": 230},
+          "bed_temp": {"min": 40, "max": 50, "recommended": 45},
+          "max_volumetric_speed": 8, "retraction_distance": 0.0,
+          "retraction_speed": 0, "fan_speed": 50,
+          "bed_adhesion": "glue stick",
+          "drying": {"temp": 45, "time_hours": 8},
+          "notes": "High flow TPU, flexible but printable", "rating": 4.1
+        },
+        "PAHT-CF": {
+          "type": "PA+CF", "nozzle_temp": {"min": 290, "max": 310, "recommended": 300},
+          "bed_temp": {"min": 100, "max": 120, "recommended": 110},
+          "max_volumetric_speed": 8, "retraction_distance": 0.6,
+          "retraction_speed": 25, "fan_speed": 0,
+          "enclosure_required": true,
+          "bed_adhesion": "PEI + Magigoo PA",
+          "drying": {"temp": 80, "time_hours": 16},
+          "notes": "Carbon fiber reinforced nylon, extremely strong", "rating": 4.7
+        }
+      }
+    },
+    "eSun": {
+      "models": {
+        "PLA+": {
+          "type": "PLA", "nozzle_temp": {"min": 210, "max": 225, "recommended": 215},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 15, "retraction_distance": 1.0,
+          "retraction_speed": 40, "fan_speed": 100,
+          "bed_adhesion": "PEI / masking tape",
+          "drying": {"temp": 50, "time_hours": 6},
+          "notes": "Most popular PLA+ worldwide, excellent value", "rating": 4.5
+        },
+        "ePLA-Matte": {
+          "type": "PLA", "nozzle_temp": {"min": 210, "max": 225, "recommended": 220},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 12, "retraction_distance": 1.0,
+          "retraction_speed": 40, "fan_speed": 100,
+          "bed_adhesion": "PEI", "drying": {"temp": 50, "time_hours": 6},
+          "notes": "Good matte finish, slightly less strong than PLA+", "rating": 4.3
+        },
+        "ePETG": {
+          "type": "PETG", "nozzle_temp": {"min": 235, "max": 255, "recommended": 245},
+          "bed_temp": {"min": 70, "max": 80, "recommended": 75},
+          "max_volumetric_speed": 10, "retraction_distance": 1.5,
+          "retraction_speed": 35, "fan_speed": 30,
+          "bed_adhesion": "PEI + glue", "drying": {"temp": 65, "time_hours": 8},
+          "notes": "Budget-friendly PETG, tends to string", "rating": 4.0
+        },
+        "eTPU-95A": {
+          "type": "TPU", "nozzle_temp": {"min": 220, "max": 240, "recommended": 230},
+          "bed_temp": {"min": 40, "max": 60, "recommended": 50},
+          "max_volumetric_speed": 5, "retraction_distance": 1.0,
+          "retraction_speed": 25, "fan_speed": 0,
+          "bed_adhesion": "PEI + glue", "drying": {"temp": 45, "time_hours": 8},
+          "notes": "Flexible but manageable", "rating": 4.0
+        }
+      }
+    },
+    "Polymaker": {
+      "models": {
+        "PolyLite PLA": {
+          "type": "PLA", "nozzle_temp": {"min": 215, "max": 230, "recommended": 225},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 14, "retraction_distance": 1.0,
+          "retraction_speed": 40, "fan_speed": 100,
+          "bed_adhesion": "PEI", "drying": {"temp": 55, "time_hours": 6},
+          "notes": "Premium PLA, very consistent diameter", "rating": 4.6
+        },
+        "PolySonic PLA": {
+          "type": "PLA", "nozzle_temp": {"min": 220, "max": 240, "recommended": 230},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 55},
+          "max_volumetric_speed": 28, "retraction_distance": 0.8,
+          "retraction_speed": 35, "fan_speed": 100,
+          "bed_adhesion": "PEI",
+          "drying": {"temp": 55, "time_hours": 6},
+          "notes": "High-speed PLA, designed for fast printing", "rating": 4.5
+        },
+        "PolyMax PC": {
+          "type": "PC", "nozzle_temp": {"min": 260, "max": 290, "recommended": 275},
+          "bed_temp": {"min": 90, "max": 110, "recommended": 100},
+          "max_volumetric_speed": 8, "retraction_distance": 1.5,
+          "retraction_speed": 40, "fan_speed": 0,
+          "enclosure_required": true,
+          "bed_adhesion": "PEI + Magigoo PC",
+          "drying": {"temp": 80, "time_hours": 12},
+          "notes": "Polycarbonate, exceptional strength and heat resistance", "rating": 4.7
+        },
+        "PolyLite PETG": {
+          "type": "PETG", "nozzle_temp": {"min": 235, "max": 255, "recommended": 245},
+          "bed_temp": {"min": 70, "max": 85, "recommended": 80},
+          "max_volumetric_speed": 10, "retraction_distance": 1.5,
+          "retraction_speed": 35, "fan_speed": 30,
+          "bed_adhesion": "PEI + glue",
+          "drying": {"temp": 65, "time_hours": 8},
+          "notes": "Premium PETG, less stringing than eSun", "rating": 4.4
+        },
+        "PolyLite ABS": {
+          "type": "ABS", "nozzle_temp": {"min": 255, "max": 275, "recommended": 265},
+          "bed_temp": {"min": 90, "max": 105, "recommended": 100},
+          "max_volumetric_speed": 10, "retraction_distance": 1.2,
+          "retraction_speed": 40, "fan_speed": 0,
+          "enclosure_required": true,
+          "bed_adhesion": "PEI + ABS slurry",
+          "drying": {"temp": 80, "time_hours": 8},
+          "notes": "Low odor ABS, good layer adhesion", "rating": 4.3
+        }
+      }
+    },
+    "Sunlu": {
+      "models": {
+        "PLA Meta": {
+          "type": "PLA", "nozzle_temp": {"min": 210, "max": 230, "recommended": 220},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 18, "retraction_distance": 0.8,
+          "retraction_speed": 35, "fan_speed": 100,
+          "bed_adhesion": "PEI",
+          "drying": {"temp": 50, "time_hours": 6},
+          "notes": "Good budget PLA, fast printing capable", "rating": 4.2
+        },
+        "PLA Plus": {
+          "type": "PLA", "nozzle_temp": {"min": 210, "max": 230, "recommended": 220},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 14, "retraction_distance": 0.8,
+          "retraction_speed": 35, "fan_speed": 100,
+          "bed_adhesion": "PEI",
+          "drying": {"temp": 50, "time_hours": 6},
+          "notes": "Enhanced PLA, slightly stronger than standard", "rating": 4.1
+        },
+        "PETG": {
+          "type": "PETG", "nozzle_temp": {"min": 235, "max": 255, "recommended": 245},
+          "bed_temp": {"min": 70, "max": 80, "recommended": 75},
+          "max_volumetric_speed": 8, "retraction_distance": 1.5,
+          "retraction_speed": 35, "fan_speed": 25,
+          "bed_adhesion": "PEI + glue",
+          "drying": {"temp": 65, "time_hours": 8},
+          "notes": "Budget PETG, needs drying before use", "rating": 3.8
+        },
+        "PLA Marble": {
+          "type": "PLA", "nozzle_temp": {"min": 210, "max": 230, "recommended": 220},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 10, "retraction_distance": 1.0,
+          "retraction_speed": 40, "fan_speed": 100,
+          "bed_adhesion": "PEI",
+          "drying": {"temp": 50, "time_hours": 6},
+          "notes": "Marble effect, may clog nozzle with particles", "rating": 3.9
+        }
+      }
+    },
+    "Overture": {
+      "models": {
+        "PLA Professional": {
+          "type": "PLA", "nozzle_temp": {"min": 205, "max": 225, "recommended": 215},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 55},
+          "max_volumetric_speed": 14, "retraction_distance": 1.0,
+          "retraction_speed": 40, "fan_speed": 100,
+          "bed_adhesion": "PEI",
+          "drying": {"temp": 50, "time_hours": 6},
+          "notes": "Easy printing, great first layer", "rating": 4.4
+        },
+        "PETG": {
+          "type": "PETG", "nozzle_temp": {"min": 230, "max": 250, "recommended": 240},
+          "bed_temp": {"min": 70, "max": 85, "recommended": 80},
+          "max_volumetric_speed": 8, "retraction_distance": 1.5,
+          "retraction_speed": 35, "fan_speed": 30,
+          "bed_adhesion": "PEI + glue",
+          "drying": {"temp": 65, "time_hours": 8},
+          "notes": "Reliable PETG, good value", "rating": 4.2
+        }
+      }
+    },
+    "Prusament": {
+      "models": {
+        "PLA Prusa Galaxy Black": {
+          "type": "PLA", "nozzle_temp": {"min": 210, "max": 225, "recommended": 215},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 60},
+          "max_volumetric_speed": 12, "retraction_distance": 1.2,
+          "retraction_speed": 40, "fan_speed": 100,
+          "bed_adhesion": "smooth PEI",
+          "drying": {"temp": 50, "time_hours": 6},
+          "notes": "Premium quality, galaxy sparkle finish", "rating": 4.8
+        },
+        "PETG Prusa Galaxy Black": {
+          "type": "PETG", "nozzle_temp": {"min": 245, "max": 260, "recommended": 255},
+          "bed_temp": {"min": 80, "max": 90, "recommended": 85},
+          "max_volumetric_speed": 8, "retraction_distance": 1.5,
+          "retraction_speed": 35, "fan_speed": 30,
+          "bed_adhesion": "smooth PEI + glue",
+          "drying": {"temp": 65, "time_hours": 8},
+          "notes": "Premium PETG, minimal stringing", "rating": 4.7
+        }
+      }
+    },
+    "Creality": {
+      "models": {
+        "PLA CR-Silk": {
+          "type": "PLA", "nozzle_temp": {"min": 200, "max": 220, "recommended": 210},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 55},
+          "max_volumetric_speed": 8, "retraction_distance": 1.5,
+          "retraction_speed": 30, "fan_speed": 100,
+          "bed_adhesion": "PEI",
+          "drying": {"temp": 45, "time_hours": 6},
+          "notes": "Silk PLA, shiny finish, print slow", "rating": 3.8
+        },
+        "PLA Hyper": {
+          "type": "PLA", "nozzle_temp": {"min": 210, "max": 230, "recommended": 220},
+          "bed_temp": {"min": 50, "max": 65, "recommended": 55},
+          "max_volumetric_speed": 25, "retraction_distance": 0.6,
+          "retraction_speed": 35, "fan_speed": 100,
+          "bed_adhesion": "PEI",
+          "drying": {"temp": 50, "time_hours": 6},
+          "notes": "High-speed PLA for Creality K-series", "rating": 4.1
+        },
+        "ABS": {
+          "type": "ABS", "nozzle_temp": {"min": 240, "max": 260, "recommended": 250},
+          "bed_temp": {"min": 90, "max": 100, "recommended": 95},
+          "max_volumetric_speed": 8, "retraction_distance": 1.5,
+          "retraction_speed": 40, "fan_speed": 0,
+          "enclosure_required": true,
+          "bed_adhesion": "PEI + ABS slurry",
+          "drying": {"temp": 80, "time_hours": 8},
+          "notes": "Basic ABS, decent for the price", "rating": 3.6
+        }
+      }
+    }
+  },
+  "material_types": {
+    "PLA": {
+      "typical_nozzle_temp": {"min": 200, "max": 230, "recommended": 215},
+      "typical_bed_temp": {"min": 50, "max": 65, "recommended": 60},
+      "typical_print_speed": {"min": 50, "max": 200, "recommended": 80},
+      "fan_speed": 100,
+      "enclosure_required": false,
+      "drying": {"temp": 50, "time_hours": 6},
+      "strength": "Medium",
+      "heat_resistance_c": 60,
+      "flexibility": "Low",
+      "ease_of_printing": "Easy"
+    },
+    "PETG": {
+      "typical_nozzle_temp": {"min": 235, "max": 260, "recommended": 245},
+      "typical_bed_temp": {"min": 70, "max": 85, "recommended": 80},
+      "typical_print_speed": {"min": 40, "max": 100, "recommended": 60},
+      "fan_speed": 30,
+      "enclosure_required": false,
+      "drying": {"temp": 65, "time_hours": 8},
+      "strength": "Medium-High",
+      "heat_resistance_c": 80,
+      "flexibility": "Medium",
+      "ease_of_printing": "Medium"
+    },
+    "ABS": {
+      "typical_nozzle_temp": {"min": 240, "max": 270, "recommended": 255},
+      "typical_bed_temp": {"min": 90, "max": 110, "recommended": 100},
+      "typical_print_speed": {"min": 40, "max": 120, "recommended": 70},
+      "fan_speed": 0,
+      "enclosure_required": true,
+      "drying": {"temp": 80, "time_hours": 8},
+      "strength": "High",
+      "heat_resistance_c": 100,
+      "flexibility": "Medium",
+      "ease_of_printing": "Hard"
+    },
+    "TPU": {
+      "typical_nozzle_temp": {"min": 220, "max": 240, "recommended": 230},
+      "typical_bed_temp": {"min": 40, "max": 60, "recommended": 50},
+      "typical_print_speed": {"min": 15, "max": 40, "recommended": 25},
+      "fan_speed": 0,
+      "enclosure_required": false,
+      "drying": {"temp": 45, "time_hours": 8},
+      "strength": "Medium",
+      "heat_resistance_c": 70,
+      "flexibility": "Very High",
+      "ease_of_printing": "Medium"
+    },
+    "PA+CF": {
+      "typical_nozzle_temp": {"min": 260, "max": 300, "recommended": 280},
+      "typical_bed_temp": {"min": 90, "max": 120, "recommended": 110},
+      "typical_print_speed": {"min": 30, "max": 80, "recommended": 50},
+      "fan_speed": 0,
+      "enclosure_required": true,
+      "drying": {"temp": 80, "time_hours": 16},
+      "strength": "Very High",
+      "heat_resistance_c": 140,
+      "flexibility": "Low",
+      "ease_of_printing": "Hard"
+    },
+    "PC": {
+      "typical_nozzle_temp": {"min": 260, "max": 300, "recommended": 280},
+      "typical_bed_temp": {"min": 90, "max": 120, "recommended": 110},
+      "typical_print_speed": {"min": 30, "max": 80, "recommended": 50},
+      "fan_speed": 0,
+      "enclosure_required": true,
+      "drying": {"temp": 80, "time_hours": 12},
+      "strength": "Very High",
+      "heat_resistance_c": 120,
+      "flexibility": "Medium",
+      "ease_of_printing": "Hard"
+    }
+  }
+}
